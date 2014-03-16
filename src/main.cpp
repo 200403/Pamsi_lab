@@ -8,6 +8,7 @@ int main(){
 	test.symulacja();
 	test.zamknijPlik();
 	return 0;
+
 }
 
 

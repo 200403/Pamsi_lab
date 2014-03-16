@@ -1,4 +1,4 @@
-#include "kontener.hh"
+#include "stos_tab.hh"
 #include <string>
 #include <vector>
 #include <windows.h>
@@ -16,7 +16,7 @@ using namespace std;
 class Dzialanie{
 private:
 	//! Kontener typu Dane na dane wejsciowe
-	Kontener wejscie, temp, wynik;
+	int rozmiar;
 
 public:
 	/*!
@@ -27,8 +27,8 @@ public:
 	 * 	\param nazwaPliku - nazwa pliku do otwarcia
 	 * 	\return void
 	 */
-	void wczytajDaneWejsciowe(string nazwa);
-	void wczytajWynik(string nazwa);
+	void wczytajDaneWejsciowe(string nazwa, stos_tab stos);
+
 
 	/*!
 	 * \brief Metoda uruchamia pomiar czasu
@@ -74,14 +74,12 @@ public:
 			 * 	-sprawdza poprawnosc algorytmu
 			 * 	return czas wykonywania algorytmu w milisekundach
 			 */
-	int uruchom();
+	int uruchom(string nazwa);
 
-	/*!
-	 * \brief Metoda zwracajaca rozmiar problemu
-	 *
-	 * \return rozmiar tablicy
-	 */
-	unsigned int wez_rozmiar(){
-		return wejscie.wez_rozmiar();
-	}
+	int wez_rozmiar(){
+		return rozmiar;
+	};
+
 };
+
+

@@ -2,6 +2,7 @@
 #include "dzialanie.hh"
 #include <iostream>
 #include <fstream>
+#include <assert.h>
 
 using namespace std;
 
@@ -14,14 +15,20 @@ using namespace std;
 	 * 	\param nazwaPliku - nazwa pliku do otwarcia
 	 * 	\return void
 	 */
-void Dzialanie::wczytajDaneWejsciowe(string nazwa){
-	wejscie.wczytajDane(nazwa);
-	temp=wejscie;
+void Dzialanie::wczytajDaneWejsciowe(string nazwa, stos_tab stos){
+	ifstream plik;
+	plik.open(nazwa.c_str(), ios::in);
+	plik >> rozmiar;
+		while( !plik.eof()){
+			int element;
+			plik >> element;
+			stos.push(element);
+		}
+		assert(rozmiar==stos.size());
+		plik.close();
 }
 
-void Dzialanie::wczytajWynik(string nazwa){
-	wynik.wczytajDane(nazwa);
-}
+
 
 /*!
 	 * \brief Metoda uruchamia pomiar czasu
@@ -53,43 +60,14 @@ LARGE_INTEGER Dzialanie::wylaczStoper(){
 	return stop;
 }
 
-/*!
-		 * \brief Metoda wykonuje algorytm na danych wejsciowych ( tablicy)
-		 *
-		 * 	Algorytm do wykonania : pomnoz kazdy element razy 2.
-		 *
-		 * 	\return void
-		 */
-void Dzialanie::wykonajAlgorytm(){
-	for(unsigned int i=0; i<temp.wez_rozmiar(); i++){
-		temp[i]*=2;
-	}
-}
 
-/*!
-		 * \brief Metoda sprawdza poprawnosc algorytmu
-		 *
-		 *	Wczytywane sa poprawne dane wynikowe, a nastepnie sa one porownywane z tymi
-		 *	otrzymanymi przez wykonanie algorytmu
-		 *
-		 * 	\return 0 - gdy algorytm jest poprawny, -1 - gdy nie.
-		 */
-bool Dzialanie::sprawdz(){
-	bool dobry= temp==wynik;
-	temp=wejscie;
-	return dobry;
-}
-
-int Dzialanie::uruchom(){
+int Dzialanie::uruchom(string nazwa){
 	LARGE_INTEGER start, end;
+	stos_tab stos(1);
 	start=wlaczStoper();
-	wykonajAlgorytm();
+	wczytajDaneWejsciowe(nazwa.c_str(),stos);
 	end=wylaczStoper();
-	if(sprawdz()==true){
-		return (end.QuadPart-start.QuadPart);
-	}
-	else{
-		cerr << "Bledny algorytm!" << endl;
-		exit(-1);
-	}
+	return (end.QuadPart-start.QuadPart);
+
+
 }

@@ -14,7 +14,7 @@ class Tester{
 private:
 	ofstream plik;
 	int powtorzenia, ilosc;
-	string wejscie, wynik;
+	string wejscie;
 public:
 
 	/*!
@@ -27,9 +27,9 @@ public:
 	 */
 	Tester(){
 		powtorzenia=50;
-		ilosc=5;
+		ilosc=4;
 		wejscie="wejscie0.txt";
-		wynik="wynik0.txt";
+
 	}
 
 	/*!

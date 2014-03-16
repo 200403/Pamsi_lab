@@ -1,0 +1,57 @@
+\hypertarget{class_tester}{\section{Tester Class Reference}
+\label{class_tester}\index{Tester@{Tester}}
+}
+
+
+Klasa \hyperlink{class_tester}{Tester} Klasa modeluje narzedzie do benchmarkowania algorytmu. Poprzez wielokrotne wynonywanie algorytmu mozemy wyciagnac sredni czas dzialania, co jest dokladniejszym pomiarem.  
+
+
+
+
+{\ttfamily \#include $<$tester.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tester_ad70b2b2bbf6c564e710680ec1e0ae2d6}{\hyperlink{class_tester_ad70b2b2bbf6c564e710680ec1e0ae2d6}{Tester} ()}\label{class_tester_ad70b2b2bbf6c564e710680ec1e0ae2d6}
+
+\begin{DoxyCompactList}\small\item\em konstruktor klasy Konstruktor inicjuje wartosci\-: -\/powtorzenia (ile razy wykonywac algorytm) -\/ilosc (ile mamy zestawow dancyh) -\/wejscie (nazwa pliku z danymi wejsciowymi) -\/wynik (nazwa pliku z poprawnym wynikiem algorytmu) \end{DoxyCompactList}\item 
+\hypertarget{class_tester_aadfaa4b0d4b7724c6c244d74241671cd}{void \hyperlink{class_tester_aadfaa4b0d4b7724c6c244d74241671cd}{otworz\-Plik} ()}\label{class_tester_aadfaa4b0d4b7724c6c244d74241671cd}
+
+\begin{DoxyCompactList}\small\item\em Metoda otwierajaca referencje do pliku C\-S\-V. \end{DoxyCompactList}\item 
+\hypertarget{class_tester_aa6f8bb3a1049653cdeb9909f646d550f}{void \hyperlink{class_tester_aa6f8bb3a1049653cdeb9909f646d550f}{zamknij\-Plik} ()}\label{class_tester_aa6f8bb3a1049653cdeb9909f646d550f}
+
+\begin{DoxyCompactList}\small\item\em Metoda otwierajaca referencje do pliku C\-S\-V. \end{DoxyCompactList}\item 
+\hypertarget{class_tester_a0239bffc9d3bc51230e1c6d0e2ec39b4}{void \hyperlink{class_tester_a0239bffc9d3bc51230e1c6d0e2ec39b4}{symulacja} ()}\label{class_tester_a0239bffc9d3bc51230e1c6d0e2ec39b4}
+
+\begin{DoxyCompactList}\small\item\em Metoda symulujaca badanie algorytmu Metoda wykonuje symulacje dzialania algorytmu. Wykonuje algorytm zadana liczbe razy dla zadanych zestawow danych. Wyniki zapisuje do pliku C\-S\-V o nazwie rezultat.\-csv Format zapisu\-: rozmiar\-\_\-problemu,ilosc\-\_\-powtorzen,sredni\-\_\-czas. \end{DoxyCompactList}\item 
+void \hyperlink{class_tester_aa208dd32e74e6aef23683b8de4282295}{zamien\-Nazwy} (int numer)
+\begin{DoxyCompactList}\small\item\em Metoda aktualizuje nazwe plikow wejsciowych Format plikow wejsciowych jest scisle okreslony. Dane wejsciowe\-: wejscie\%.txt, gdzie \% to numer zestawu Dane wynikowe\-: wynik\%.txt, gdzie \% to numer zestawu Zestawy nalazy numerowac od 0. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa \hyperlink{class_tester}{Tester} Klasa modeluje narzedzie do benchmarkowania algorytmu. Poprzez wielokrotne wynonywanie algorytmu mozemy wyciagnac sredni czas dzialania, co jest dokladniejszym pomiarem. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tester_aa208dd32e74e6aef23683b8de4282295}{\index{Tester@{Tester}!zamien\-Nazwy@{zamien\-Nazwy}}
+\index{zamien\-Nazwy@{zamien\-Nazwy}!Tester@{Tester}}
+\subsubsection[{zamien\-Nazwy}]{\setlength{\rightskip}{0pt plus 5cm}void Tester\-::zamien\-Nazwy (
+\begin{DoxyParamCaption}
+\item[{int}]{numer}
+\end{DoxyParamCaption}
+)}}\label{class_tester_aa208dd32e74e6aef23683b8de4282295}
+
+
+Metoda aktualizuje nazwe plikow wejsciowych Format plikow wejsciowych jest scisle okreslony. Dane wejsciowe\-: wejscie\%.txt, gdzie \% to numer zestawu Dane wynikowe\-: wynik\%.txt, gdzie \% to numer zestawu Zestawy nalazy numerowac od 0. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em numer} & -\/ \% zostaje zamieniony na wartosc 'numer' \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/tester.\-hh\item 
+src/tester.\-cpp\end{DoxyCompactItemize}

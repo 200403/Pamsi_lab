@@ -1,0 +1,101 @@
+\hypertarget{classkolejka__tab}{\section{kolejka\-\_\-tab Class Reference}
+\label{classkolejka__tab}\index{kolejka\-\_\-tab@{kolejka\-\_\-tab}}
+}
+
+
+Klasa modelujaca strukture koleki Kolejka jest zbudowana w oparciu o liste.  
+
+
+
+
+{\ttfamily \#include $<$kolejka\-\_\-tab.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classkolejka__tab_a4e1582f2650e0251ae7b286cc2252898}{{\bfseries kolejka\-\_\-tab} (int zwieksz)}\label{classkolejka__tab_a4e1582f2650e0251ae7b286cc2252898}
+
+\item 
+void \hyperlink{classkolejka__tab_a722997bbf6525eb8494999e79a3eb6a9}{enqueue} (int element)
+\begin{DoxyCompactList}\small\item\em Metoda dodajaca element na stos Metoda dodaje element na koniec listy. \end{DoxyCompactList}\item 
+void \hyperlink{classkolejka__tab_a1efa76f06261d81e24dc15f52a1dcace}{dequeue} (int $\ast$a)
+\begin{DoxyCompactList}\small\item\em Metoda usuwajaca element ze stos Metoda usuwa element znajdujacy sie na koncu listy. Gdy stos jest pusty, wyswietlony zostaje blad mowiacy ze brak danych do sciagniecia. \end{DoxyCompactList}\item 
+bool \hyperlink{classkolejka__tab_aeb23e2580566a1978e846453deea1bec}{isempty} ()
+\begin{DoxyCompactList}\small\item\em Metoda sprawdzajaca czy stos jest pusty. Metoda sprawdza czy stos jest pusty. \end{DoxyCompactList}\item 
+int \hyperlink{classkolejka__tab_a0cce5421e6f7e1fb2040a2be78ec15af}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracajaca rozmiar stosu Metoda zwraca rozmiar listy. \end{DoxyCompactList}\item 
+\hypertarget{classkolejka__tab_afd57651509f2f355d5037bc9e8f58375}{void {\bfseries wyswietl} ()}\label{classkolejka__tab_afd57651509f2f355d5037bc9e8f58375}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modelujaca strukture koleki Kolejka jest zbudowana w oparciu o liste. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classkolejka__tab_a1efa76f06261d81e24dc15f52a1dcace}{\index{kolejka\-\_\-tab@{kolejka\-\_\-tab}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!kolejka_tab@{kolejka\-\_\-tab}}
+\subsubsection[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tab\-::dequeue (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{a}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tab_a1efa76f06261d81e24dc15f52a1dcace}
+
+
+Metoda usuwajaca element ze stos Metoda usuwa element znajdujacy sie na koncu listy. Gdy stos jest pusty, wyswietlony zostaje blad mowiacy ze brak danych do sciagniecia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ wskaznik do zmiennej, do ktorej sciagamy wartosc. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classkolejka__tab_a722997bbf6525eb8494999e79a3eb6a9}{\index{kolejka\-\_\-tab@{kolejka\-\_\-tab}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!kolejka_tab@{kolejka\-\_\-tab}}
+\subsubsection[{enqueue}]{\setlength{\rightskip}{0pt plus 5cm}void kolejka\-\_\-tab\-::enqueue (
+\begin{DoxyParamCaption}
+\item[{int}]{element}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tab_a722997bbf6525eb8494999e79a3eb6a9}
+
+
+Metoda dodajaca element na stos Metoda dodaje element na koniec listy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em element} & -\/ element, ktory zostanie dodany do stosu \\
+\hline
+\end{DoxyParams}
+\hypertarget{classkolejka__tab_aeb23e2580566a1978e846453deea1bec}{\index{kolejka\-\_\-tab@{kolejka\-\_\-tab}!isempty@{isempty}}
+\index{isempty@{isempty}!kolejka_tab@{kolejka\-\_\-tab}}
+\subsubsection[{isempty}]{\setlength{\rightskip}{0pt plus 5cm}bool kolejka\-\_\-tab\-::isempty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tab_aeb23e2580566a1978e846453deea1bec}
+
+
+Metoda sprawdzajaca czy stos jest pusty. Metoda sprawdza czy stos jest pusty. 
+
+\begin{DoxyReturn}{Returns}
+lista.\-empty(); 
+\end{DoxyReturn}
+\hypertarget{classkolejka__tab_a0cce5421e6f7e1fb2040a2be78ec15af}{\index{kolejka\-\_\-tab@{kolejka\-\_\-tab}!size@{size}}
+\index{size@{size}!kolejka_tab@{kolejka\-\_\-tab}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int kolejka\-\_\-tab\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classkolejka__tab_a0cce5421e6f7e1fb2040a2be78ec15af}
+
+
+Metoda zwracajaca rozmiar stosu Metoda zwraca rozmiar listy. 
+
+\begin{DoxyReturn}{Returns}
+rozmiar stosu. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/kolejka\-\_\-tab.\-hh\item 
+src/kolejka\-\_\-tab.\-cpp\end{DoxyCompactItemize}
