@@ -1,4 +1,4 @@
-#include "stos_tab.hh"
+#include "kontener.hh"
 #include <string>
 #include <vector>
 #include <windows.h>
@@ -16,7 +16,9 @@ using namespace std;
 class Dzialanie{
 private:
 	//! Kontener typu Dane na dane wejsciowe
+	Kontener kontener;
 	int rozmiar;
+	int p[100];
 
 public:
 	/*!
@@ -27,7 +29,7 @@ public:
 	 * 	\param nazwaPliku - nazwa pliku do otwarcia
 	 * 	\return void
 	 */
-	void wczytajDaneWejsciowe(string nazwa, stos_tab stos);
+	void wczytajDaneWejsciowe(string nazwa);
 
 
 	/*!
@@ -75,6 +77,47 @@ public:
 			 * 	return czas wykonywania algorytmu w milisekundach
 			 */
 	int uruchom(string nazwa);
+
+	/*!
+	 * \brief Metoda implementuj¹ca sortowanie szybkie
+	 * \param tab - wskaznik na tablice do posortowania
+	 * \param lewy - indeks poczatku tablicy
+	 * \param prawy - indeks konca tablicy
+	 */
+	void Quicksort( Kontener *tab, int lewy, int prawy );
+
+	/*!
+		 * \brief Metoda implementuj¹ca sortowanie przez kopcowanie
+		 * \param tab - tablica do posortowania
+		 * \return metoda zwraca posortowana tablice
+		 */
+	Kontener heap(Kontener tab);
+
+	/*!
+		 * \brief Metoda przywraca sturkturê kopca jesli ta zostala zaburzona
+		 *
+		 * \param kopiec - wskaznik na kopiec do uporzadkowania
+		 *
+		 *
+		 */
+	void uporzadkuj_kopiec(Kontener *kopiec);
+
+	/*!
+		 * \brief Metoda implementuj¹ca scalanie dwoch tablic
+		 * 	Scalanie czyli laczenie dwoch posortowanych tablic w jedna(rowniez posortowana)
+		 *
+		 * \param lewy - element pierwszy
+		 * \param prawy - element drugi
+		 * \return metoda zwraca scalony zbior
+		 */
+	Kontener merge(Kontener lewy, Kontener prawy);
+
+	/*!
+		 * \brief Metoda implementuj¹ca sortowanie przez scalanie
+		 * \param tab - tablica do posortowania
+		 * \return metoda zwraca posortowana tablice
+		 */
+	Kontener MergeSort(Kontener tab);
 
 	int wez_rozmiar(){
 		return rozmiar;

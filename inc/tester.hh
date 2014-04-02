@@ -26,7 +26,7 @@ public:
 	 * -wynik (nazwa pliku z poprawnym wynikiem algorytmu)
 	 */
 	Tester(){
-		powtorzenia=50;
+		powtorzenia=5;
 		ilosc=4;
 		wejscie="wejscie0.txt";
 
@@ -35,7 +35,7 @@ public:
 	/*!
 	 * \brief Metoda otwierajaca referencje do pliku CSV
 	 */
-	void otworzPlik();
+	void otworzPlik(string nazwa);
 	/*!
 		 * \brief Metoda otwierajaca referencje do pliku CSV
 		 */

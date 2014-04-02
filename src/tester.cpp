@@ -2,8 +2,8 @@
 
 using namespace std;
 
-void Tester::otworzPlik(){
-	plik.open("rezultat1.csv", ios::out);
+void Tester::otworzPlik(string nazwa){
+	plik.open(nazwa.c_str(), ios::out);
 }
 
 void Tester::zamknijPlik(){

@@ -13,7 +13,7 @@ Klasa modelujaca g³owna czesc programu.
 \subsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-void \hyperlink{class_dzialanie_af696ae77c9566b39f0f9cbe5bb6bdffa}{wczytaj\-Dane\-Wejsciowe} (string nazwa, \hyperlink{classstos__tab}{stos\-\_\-tab} stos)
+void \hyperlink{class_dzialanie_a701d7d710735eea1613a1bd6119f0538}{wczytaj\-Dane\-Wejsciowe} (string nazwa)
 \begin{DoxyCompactList}\small\item\em metoda wczytuje dane do tablicy znajdujacej sie w zmiennej wejscie. \end{DoxyCompactList}\item 
 L\-A\-R\-G\-E\-\_\-\-I\-N\-T\-E\-G\-E\-R \hyperlink{class_dzialanie_a2485f447415a34a4edfe6144df152982}{wlacz\-Stoper} ()
 \begin{DoxyCompactList}\small\item\em Metoda uruchamia pomiar czasu. \end{DoxyCompactList}\item 
@@ -26,6 +26,16 @@ bool \hyperlink{class_dzialanie_a5159ca35ea3a03829fba79f3b6fd6e20}{sprawdz} ()
 \hypertarget{class_dzialanie_ad54620c23582d6a713940f712e744858}{int \hyperlink{class_dzialanie_ad54620c23582d6a713940f712e744858}{uruchom} (string nazwa)}\label{class_dzialanie_ad54620c23582d6a713940f712e744858}
 
 \begin{DoxyCompactList}\small\item\em Metoda wykonuje jednorazowy test algorytmu Metoda\-: -\/wlacza zegar -\/wykonuje algorytm -\/wylacza zegar -\/sprawdza poprawnosc algorytmu return czas wykonywania algorytmu w milisekundach. \end{DoxyCompactList}\item 
+void \hyperlink{class_dzialanie_abec71f78ef310cab662ff923690f8b7e}{Quicksort} (\hyperlink{class_kontener}{Kontener} $\ast$tab, int lewy, int prawy)
+\begin{DoxyCompactList}\small\item\em Metoda implementuj¹ca sortowanie szybkie. \end{DoxyCompactList}\item 
+\hyperlink{class_kontener}{Kontener} \hyperlink{class_dzialanie_ae9d8a4fdf8fb011ffa613d4974199787}{heap} (\hyperlink{class_kontener}{Kontener} tab)
+\begin{DoxyCompactList}\small\item\em Metoda implementuj¹ca sortowanie przez kopcowanie. \end{DoxyCompactList}\item 
+void \hyperlink{class_dzialanie_a4d2e168fb35315d35a54cbbfaa26c130}{uporzadkuj\-\_\-kopiec} (\hyperlink{class_kontener}{Kontener} $\ast$kopiec)
+\begin{DoxyCompactList}\small\item\em Metoda przywraca sturkturê kopca jesli ta zostala zaburzona. \end{DoxyCompactList}\item 
+\hyperlink{class_kontener}{Kontener} \hyperlink{class_dzialanie_ac05e4be595706ea025aef5a1c190d5da}{merge} (\hyperlink{class_kontener}{Kontener} lewy, \hyperlink{class_kontener}{Kontener} prawy)
+\begin{DoxyCompactList}\small\item\em Metoda implementuj¹ca scalanie dwoch tablic Scalanie czyli laczenie dwoch posortowanych tablic w jedna(rowniez posortowana) \end{DoxyCompactList}\item 
+\hyperlink{class_kontener}{Kontener} \hyperlink{class_dzialanie_a0fb0f2d6b601d206c9afb9782c8f43fe}{Merge\-Sort} (\hyperlink{class_kontener}{Kontener} tab)
+\begin{DoxyCompactList}\small\item\em Metoda implementuj¹ca sortowanie przez scalanie. \end{DoxyCompactList}\item 
 \hypertarget{class_dzialanie_a49e05b79618737596fb51a6027172b0c}{int {\bfseries wez\-\_\-rozmiar} ()}\label{class_dzialanie_a49e05b79618737596fb51a6027172b0c}
 
 \end{DoxyCompactItemize}
@@ -37,6 +47,88 @@ Klasa modelujaca g³owna czesc programu.
 Klasa modeluje glowna czesc porgramu, ktorego zadaniem jest\-: -\/wczytanie danych -\/zmierzenie czasu dzialania algorytmu -\/sprawdzenie poprawnosci tego algorytmu, majac oczekiwany wynik 
 
 \subsection{Member Function Documentation}
+\hypertarget{class_dzialanie_ae9d8a4fdf8fb011ffa613d4974199787}{\index{Dzialanie@{Dzialanie}!heap@{heap}}
+\index{heap@{heap}!Dzialanie@{Dzialanie}}
+\subsubsection[{heap}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Kontener} Dzialanie\-::heap (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener}}]{tab}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_ae9d8a4fdf8fb011ffa613d4974199787}
+
+
+Metoda implementuj¹ca sortowanie przez kopcowanie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & -\/ tablica do posortowania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+metoda zwraca posortowana tablice 
+\end{DoxyReturn}
+\hypertarget{class_dzialanie_ac05e4be595706ea025aef5a1c190d5da}{\index{Dzialanie@{Dzialanie}!merge@{merge}}
+\index{merge@{merge}!Dzialanie@{Dzialanie}}
+\subsubsection[{merge}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Kontener} Dzialanie\-::merge (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener}}]{lewy, }
+\item[{{\bf Kontener}}]{prawy}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_ac05e4be595706ea025aef5a1c190d5da}
+
+
+Metoda implementuj¹ca scalanie dwoch tablic Scalanie czyli laczenie dwoch posortowanych tablic w jedna(rowniez posortowana) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lewy} & -\/ element pierwszy \\
+\hline
+{\em prawy} & -\/ element drugi \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+metoda zwraca scalony zbior 
+\end{DoxyReturn}
+\hypertarget{class_dzialanie_a0fb0f2d6b601d206c9afb9782c8f43fe}{\index{Dzialanie@{Dzialanie}!Merge\-Sort@{Merge\-Sort}}
+\index{Merge\-Sort@{Merge\-Sort}!Dzialanie@{Dzialanie}}
+\subsubsection[{Merge\-Sort}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Kontener} Dzialanie\-::\-Merge\-Sort (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener}}]{tab}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_a0fb0f2d6b601d206c9afb9782c8f43fe}
+
+
+Metoda implementuj¹ca sortowanie przez scalanie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & -\/ tablica do posortowania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+metoda zwraca posortowana tablice 
+\end{DoxyReturn}
+\hypertarget{class_dzialanie_abec71f78ef310cab662ff923690f8b7e}{\index{Dzialanie@{Dzialanie}!Quicksort@{Quicksort}}
+\index{Quicksort@{Quicksort}!Dzialanie@{Dzialanie}}
+\subsubsection[{Quicksort}]{\setlength{\rightskip}{0pt plus 5cm}void Dzialanie\-::\-Quicksort (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener} $\ast$}]{tab, }
+\item[{int}]{lewy, }
+\item[{int}]{prawy}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_abec71f78ef310cab662ff923690f8b7e}
+
+
+Metoda implementuj¹ca sortowanie szybkie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tab} & -\/ wskaznik na tablice do posortowania \\
+\hline
+{\em lewy} & -\/ indeks poczatku tablicy \\
+\hline
+{\em prawy} & -\/ indeks konca tablicy \\
+\hline
+\end{DoxyParams}
 \hypertarget{class_dzialanie_a5159ca35ea3a03829fba79f3b6fd6e20}{\index{Dzialanie@{Dzialanie}!sprawdz@{sprawdz}}
 \index{sprawdz@{sprawdz}!Dzialanie@{Dzialanie}}
 \subsubsection[{sprawdz}]{\setlength{\rightskip}{0pt plus 5cm}bool Dzialanie\-::sprawdz (
@@ -53,14 +145,29 @@ Wczytywane sa poprawne dane wynikowe, a nastepnie sa one porownywane z tymi otrz
 \begin{DoxyReturn}{Returns}
 0 -\/ gdy algorytm jest poprawny, -\/1 -\/ gdy nie. 
 \end{DoxyReturn}
-\hypertarget{class_dzialanie_af696ae77c9566b39f0f9cbe5bb6bdffa}{\index{Dzialanie@{Dzialanie}!wczytaj\-Dane\-Wejsciowe@{wczytaj\-Dane\-Wejsciowe}}
+\hypertarget{class_dzialanie_a4d2e168fb35315d35a54cbbfaa26c130}{\index{Dzialanie@{Dzialanie}!uporzadkuj\-\_\-kopiec@{uporzadkuj\-\_\-kopiec}}
+\index{uporzadkuj\-\_\-kopiec@{uporzadkuj\-\_\-kopiec}!Dzialanie@{Dzialanie}}
+\subsubsection[{uporzadkuj\-\_\-kopiec}]{\setlength{\rightskip}{0pt plus 5cm}void Dzialanie\-::uporzadkuj\-\_\-kopiec (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener} $\ast$}]{kopiec}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_a4d2e168fb35315d35a54cbbfaa26c130}
+
+
+Metoda przywraca sturkturê kopca jesli ta zostala zaburzona. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em kopiec} & -\/ wskaznik na kopiec do uporzadkowania \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_dzialanie_a701d7d710735eea1613a1bd6119f0538}{\index{Dzialanie@{Dzialanie}!wczytaj\-Dane\-Wejsciowe@{wczytaj\-Dane\-Wejsciowe}}
 \index{wczytaj\-Dane\-Wejsciowe@{wczytaj\-Dane\-Wejsciowe}!Dzialanie@{Dzialanie}}
 \subsubsection[{wczytaj\-Dane\-Wejsciowe}]{\setlength{\rightskip}{0pt plus 5cm}void Dzialanie\-::wczytaj\-Dane\-Wejsciowe (
 \begin{DoxyParamCaption}
-\item[{string}]{nazwa, }
-\item[{{\bf stos\-\_\-tab}}]{stos}
+\item[{string}]{nazwa}
 \end{DoxyParamCaption}
-)}}\label{class_dzialanie_af696ae77c9566b39f0f9cbe5bb6bdffa}
+)}}\label{class_dzialanie_a701d7d710735eea1613a1bd6119f0538}
 
 
 metoda wczytuje dane do tablicy znajdujacej sie w zmiennej wejscie. 
