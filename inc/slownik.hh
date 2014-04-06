@@ -67,11 +67,6 @@ public:
 };
 
 
-template < typename Wartosc >
-bool compare_string(Para<Wartosc> a,Para<Wartosc> b){
-	return a.klucz().compare(b.klucz());
-}
-
 /*!
  * \brief Klasa modeluje pojecie tablicy asocjacyjnej
  * 	Tablica asocjacyjna jest to tablica, w ktorej do wartosci mozemy sie odwolywac poprzez klucze.
