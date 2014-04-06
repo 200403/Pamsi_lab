@@ -27,8 +27,8 @@ public:
 	 */
 	Tester(){
 		powtorzenia=5;
-		ilosc=4;
-		wejscie="wejscie0.txt";
+		ilosc=7;
+		wejscie="najgorzej0.txt";
 
 	}
 

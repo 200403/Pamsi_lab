@@ -3,7 +3,7 @@
 using namespace std;
 
 void Tester::otworzPlik(string nazwa){
-	plik.open(nazwa.c_str(), ios::out);
+	plik.open(nazwa.c_str(), ios::out );
 }
 
 void Tester::zamknijPlik(){

@@ -1,0 +1,140 @@
+\documentclass[10pt,oneside]{mwbk}
+
+% ustawienia kodowania pliku i języka
+\usepackage[T1]{polski}
+\usepackage[utf8]{inputenc}
+
+\usepackage{indentfirst}
+\usepackage{graphicx}
+
+
+% czcionka Times
+\usepackage{times}
+
+% odstępy na 1.5 (pomimo, iż linespread jest na 1.3
+\linespread{1.3}
+
+% dzielenie wyrazów – większe odstępy, mniej dzielenia
+\hyphenpenalty=5000
+\tolerance=5000
+
+%import z pliku csv
+\usepackage{csvsimple}
+
+%strona tytułowa
+\renewcommand {\maketitle}{
+\begin {titlepage}
+\begin {center}
+	\LARGE
+	\textbf {PROJEKTOWANIE ALGORYTMOW I METODY SZTUCZNEJ INTELIGENCJI}
+	\newline
+	\newline
+	\textit {SPRAWOZDANIE Z  LABORATORIUM}
+	\textbf{ Quicksort - wpływ metody wyboru piwotu na czas sortowania}
+	\newline
+	\begin{table}
+	\begin{center}
+	\begin{tabular}{rl}
+	IMIĘ I NAZWISKO & Mariusz Dajczak \\
+	NR INDEKSU & 200403 \\	
+	TERMIN & czwartek 10:00-12:35 \\
+	DATA  & 27.03.2014 \\
+	\end{tabular}
+
+	\end{center}
+	\end{table}
+\end {center}
+\end {titlepage}}
+
+\begin{document}
+\maketitle
+\section{Wstęp}
+	
+
+	\indent Algorytm sortowania szybkiego jest uważany za najszybszy jesli chodzi o dane losowe. Oparty jest na metodzie dziel i zwyciężaj. Polega to na tym, że zbiór danych zostaje podzielony na dwa podzbiory i każdy z nich jest sortowany niezależnie.
+	W średnim przypadku jego złożoność obliczeniowa wynosi $nlogn$ , natomiast w najgorszym $n^{2}$.\\
+	
+	\indent Quicksort w podstawowej wersji za piwot obiera pierwszy lub ostatni element zbioru. Taki sposób działania jest poprawny i powszechnie stosowany, jednak aby zminimalizować prawdopodobieństwo przypadku pesymistycznego można losowwo wybierać piwot. Dzięki temu trickowi szansa na wystąpienie najgorszego scenariusza jest statystycznie znacznie mniejsza.\\
+	\\
+	\indent Celem tego ćwiczenia jest zbadanie jak zmieni się czas wykonania sortowania obydwoma rodzajami sortowania szybkiego w przypadku średnim oraz pesymistycznym.
+	
+\section {Wyniki symulacji}
+	\textbf{CZASY SORTOWANIA W PESYMISTYCZNYM PRZYPADKU}
+	\\
+	Zwykły quicksort
+	\begin{table}[!h]
+	\begin{tabular}{lll}
+	Rozmiar & Powtórzenia & Czas         \\
+	10&5&30.4\\
+100&5&305\\
+1000&5&3820.2.2\\
+10000&5&36122.6\\
+100000&5&594501\\
+1000000&5&5.82638e+006\\
+10000000&5&6.80988e+007\\
+	\end{tabular}
+	\end{table}
+	
+	Losowy piwot
+		\begin{table}[!h]
+	\begin{tabular}{lll}
+		Rozmiar & Powtórzenia & Czas         \\
+10&5&29.4\\
+100&5&244.2\\
+1000&5&2007\\
+10000&5&26304.6\\
+100000&5&279041\\
+1000000&5&3.83514e+006\\
+10000000&5&4.11167e+007\\
+	\end{tabular}
+	\end{table}
+	
+	
+	\newpage
+	\textbf{CZASY SORTOWANIA W ŚREDNIM PRZYPADKU}
+	\\
+	Zwykły quicksort
+	\begin{table}[!h]
+	\begin{tabular}{lll}
+	Rozmiar & Powtórzenia & Czas         \\
+10&10&38.8\\
+100&10&571.2\\
+1000&10&6624.1\\
+10000&10&77038.7\\
+100000&10&564664\\
+1000000&10&8.1971e+006\\
+10000000&10&7.36563e+007\\
+	\end{tabular}
+	\end{table}
+	
+	Losowy piwot
+		\begin{table}[!h]
+	\begin{tabular}{lll}
+		Rozmiar & Powtórzenia & Czas         \\
+10&5&51.4\\
+100&5&459.6\\
+1000&5&5304.2\\
+10000&5&24957.6\\
+100000&5&286556\\
+1000000&5&3.79507e+006\\
+10000000&5&4.14374e+007\\
+	\end{tabular}
+	\end{table}
+
+\section {Wykresy}
+	\begin{figure}[!ht]
+	\centering
+	\includegraphics[scale=0.7]{rys/pesymistycznie.jpg}
+	\end{figure}
+	
+	\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.7]{rys/srednio.jpg}
+	\end{figure}
+\newpage
+\section {Wnioski}
+\indent Po przeprowadzeniu symulacji da się zauważyć pewną różnicę między czasem wykonania obu metod.
+W przypadku pesymistycznym losowe wybieranie piwotu jest szybsze dla kazdego rozmiaru problemu. Wynik jest zgodny z oczekiwaniami. 
+\indent W średnim przypadku losowanie piwotu również sprawia, że czas wykonania jest krótszy. Wynika to z faktu, że losowe wybieranie piwotu sprawia, iż statystycznie rzecz biorąc mamy większe szanse na uzyskanie przypadku korzystniejszego dla sortowania szybkiego. \\
+\indent Zastosowanie tej metody wyboru piwotu usprawnia działanie sortowania szybkiego i sprawia, że jest ono jeszcze bardziej użyteczne. 
+\end{document}
