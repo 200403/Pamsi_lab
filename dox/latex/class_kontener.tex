@@ -1,0 +1,234 @@
+\hypertarget{class_kontener}{\section{Kontener Class Reference}
+\label{class_kontener}\index{Kontener@{Kontener}}
+}
+
+
+Klasa Dane.  
+
+
+
+
+{\ttfamily \#include $<$kontener.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \hyperlink{class_kontener_ab352bcc2f9a14a7981013edcdb785fb2}{wez\-\_\-rozmiar} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracajaca rozmiar tablicy. \end{DoxyCompactList}\item 
+vector$<$ int $>$ \& \hyperlink{class_kontener_a86934ff33cb308fe7186396e786f8ba0}{wez\-\_\-dane} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracajaca referencje do tablicy danych Metoda pozwala na dostep do tablicy i jej modyfikacje. \end{DoxyCompactList}\item 
+void \hyperlink{class_kontener_a97f02ad6805f5d211d7bec74ce7de0cd}{wczytaj\-Dane} (string nazwa\-Pliku)
+\begin{DoxyCompactList}\small\item\em metoda wczytuje dane do tablicy z pliku \end{DoxyCompactList}\item 
+void \hyperlink{class_kontener_a8fb07326caee494038c084090a92142a}{zamien\-\_\-elementy} (unsigned int i, unsigned int j)
+\begin{DoxyCompactList}\small\item\em Metoda zamienia ze soba dwa elementy tablicy. \end{DoxyCompactList}\item 
+\hypertarget{class_kontener_abdbbc48d9251e4b9b670f5498b5da6dc}{void \hyperlink{class_kontener_abdbbc48d9251e4b9b670f5498b5da6dc}{odwroc\-\_\-kolejnosc} ()}\label{class_kontener_abdbbc48d9251e4b9b670f5498b5da6dc}
+
+\begin{DoxyCompactList}\small\item\em Metoda odwraca zawartosc tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{class_kontener_a94d835a8f98052790a812b367f4129e4}{dodaj\-\_\-element} (int e)
+\begin{DoxyCompactList}\small\item\em Metoda dodaje element na koniec tablicy. \end{DoxyCompactList}\item 
+\hypertarget{class_kontener_a568a2a699a57f6c9cd31956992e189ae}{void {\bfseries usun\-\_\-z\-\_\-konca} ()}\label{class_kontener_a568a2a699a57f6c9cd31956992e189ae}
+
+\item 
+\hypertarget{class_kontener_adf360a239fb88e0bea7adb1863e94fff}{void {\bfseries usun\-\_\-z\-\_\-poczatku} ()}\label{class_kontener_adf360a239fb88e0bea7adb1863e94fff}
+
+\item 
+void \hyperlink{class_kontener_a95a5297fde3434d3c3a2da6aa4ec69d2}{dodaj\-\_\-elementy} (\hyperlink{class_kontener}{Kontener} tab)
+\begin{DoxyCompactList}\small\item\em Metoda dodaje na koniec tablicy zawartosc innej tablicy. \end{DoxyCompactList}\item 
+int \& \hyperlink{class_kontener_af37b0a656738c7d444161f4dad57b8cf}{operator\mbox{[}$\,$\mbox{]}} (int index)
+\begin{DoxyCompactList}\small\item\em Operator indeksujacy tablice. \end{DoxyCompactList}\item 
+\hypertarget{class_kontener_a59ea73a194b2804155e477403154553b}{const int \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int el) const }\label{class_kontener_a59ea73a194b2804155e477403154553b}
+
+\item 
+\hyperlink{class_kontener}{Kontener} \& \hyperlink{class_kontener_abff1153212b0544baed9f7081e16e0de}{operator+} (\hyperlink{class_kontener}{Kontener} tab)
+\begin{DoxyCompactList}\small\item\em Operator dodawania tablic Operator pozwala na dodanie 2 tablic. \end{DoxyCompactList}\item 
+\hyperlink{class_kontener}{Kontener} \& \hyperlink{class_kontener_a980caf091a2263e759d1c14f5239cafb}{operator=} (\hyperlink{class_kontener}{Kontener} tab)
+\begin{DoxyCompactList}\small\item\em Operator przypisania Operator pozwala na przypisanie do tablicy zawartosci innej tablicy. \end{DoxyCompactList}\item 
+bool \hyperlink{class_kontener_a4d8165d3e222bdc09e9ab85aed8a3dee}{operator==} (\hyperlink{class_kontener}{Kontener} tab)
+\begin{DoxyCompactList}\small\item\em Operator porownania 2 tablic Operator pozwala na porownanie 2 tablic. Sprawdza on czy sa takie same pod wzgledem zawartosci. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_kontener_a5a67000814e6c94f572b5d68fea39c01}{ostream \& \hyperlink{class_kontener_a5a67000814e6c94f572b5d68fea39c01}{operator$<$$<$} (ostream \&out, \hyperlink{class_kontener}{Kontener} Tab)}\label{class_kontener_a5a67000814e6c94f572b5d68fea39c01}
+
+\begin{DoxyCompactList}\small\item\em Operator wwypisywania Metoda pozwala na wypisanie zawartosci tablicy na standardowe wyjscie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa Dane. 
+
+Klasa posiada 2 pola\-: -\/tablice (vector), -\/rozmiar tablicy. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_kontener_a94d835a8f98052790a812b367f4129e4}{\index{Kontener@{Kontener}!dodaj\-\_\-element@{dodaj\-\_\-element}}
+\index{dodaj\-\_\-element@{dodaj\-\_\-element}!Kontener@{Kontener}}
+\subsubsection[{dodaj\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}void Kontener\-::dodaj\-\_\-element (
+\begin{DoxyParamCaption}
+\item[{int}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a94d835a8f98052790a812b367f4129e4}
+
+
+Metoda dodaje element na koniec tablicy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & -\/ wartosc elementu \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_kontener_a95a5297fde3434d3c3a2da6aa4ec69d2}{\index{Kontener@{Kontener}!dodaj\-\_\-elementy@{dodaj\-\_\-elementy}}
+\index{dodaj\-\_\-elementy@{dodaj\-\_\-elementy}!Kontener@{Kontener}}
+\subsubsection[{dodaj\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void Kontener\-::dodaj\-\_\-elementy (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener}}]{tab}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a95a5297fde3434d3c3a2da6aa4ec69d2}
+
+
+Metoda dodaje na koniec tablicy zawartosc innej tablicy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tablica,ktora} & bedzie dodana na koniec \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_kontener_abff1153212b0544baed9f7081e16e0de}{\index{Kontener@{Kontener}!operator+@{operator+}}
+\index{operator+@{operator+}!Kontener@{Kontener}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Kontener} \& Kontener\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener}}]{tab}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_abff1153212b0544baed9f7081e16e0de}
+
+
+Operator dodawania tablic Operator pozwala na dodanie 2 tablic. 
+
+\begin{DoxyVerb}    \param tablica do dodania
+\end{DoxyVerb}
+ \begin{DoxyReturn}{Returns}
+dwie polaczone tablice 
+\end{DoxyReturn}
+\hypertarget{class_kontener_a980caf091a2263e759d1c14f5239cafb}{\index{Kontener@{Kontener}!operator=@{operator=}}
+\index{operator=@{operator=}!Kontener@{Kontener}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Kontener} \& Kontener\-::operator= (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener}}]{tab}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a980caf091a2263e759d1c14f5239cafb}
+
+
+Operator przypisania Operator pozwala na przypisanie do tablicy zawartosci innej tablicy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tablica,ktora} & przypisujemy \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_kontener_a4d8165d3e222bdc09e9ab85aed8a3dee}{\index{Kontener@{Kontener}!operator==@{operator==}}
+\index{operator==@{operator==}!Kontener@{Kontener}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Kontener\-::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Kontener}}]{tab}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a4d8165d3e222bdc09e9ab85aed8a3dee}
+
+
+Operator porownania 2 tablic Operator pozwala na porownanie 2 tablic. Sprawdza on czy sa takie same pod wzgledem zawartosci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tablica,z} & ktora bedziemy porownywac \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true -\/ tablice sa identyczne \par
+ false -\/ tablice sa rozne 
+\end{DoxyReturn}
+\hypertarget{class_kontener_af37b0a656738c7d444161f4dad57b8cf}{\index{Kontener@{Kontener}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!Kontener@{Kontener}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}int \& Kontener\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_af37b0a656738c7d444161f4dad57b8cf}
+
+
+Operator indeksujacy tablice. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & -\/ indeks, ktorego referencja zostanie zwrocona \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+referencja do zadanego indeksu 
+\end{DoxyReturn}
+\hypertarget{class_kontener_a97f02ad6805f5d211d7bec74ce7de0cd}{\index{Kontener@{Kontener}!wczytaj\-Dane@{wczytaj\-Dane}}
+\index{wczytaj\-Dane@{wczytaj\-Dane}!Kontener@{Kontener}}
+\subsubsection[{wczytaj\-Dane}]{\setlength{\rightskip}{0pt plus 5cm}void Kontener\-::wczytaj\-Dane (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa\-Pliku}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a97f02ad6805f5d211d7bec74ce7de0cd}
+
+
+metoda wczytuje dane do tablicy z pliku 
+
+Format danych w pliku jest nastepujacy\-: pierwszy wiersz -\/ ilosc elementow, a nastepnie w kolumnie kolejne wartosci tablicy. 
+\begin{DoxyParams}{Parameters}
+{\em nazwa\-Pliku} & -\/ nazwa pliku do otwarcia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_kontener_a86934ff33cb308fe7186396e786f8ba0}{\index{Kontener@{Kontener}!wez\-\_\-dane@{wez\-\_\-dane}}
+\index{wez\-\_\-dane@{wez\-\_\-dane}!Kontener@{Kontener}}
+\subsubsection[{wez\-\_\-dane}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$\& Kontener\-::wez\-\_\-dane (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kontener_a86934ff33cb308fe7186396e786f8ba0}
+
+
+Metoda zwracajaca referencje do tablicy danych Metoda pozwala na dostep do tablicy i jej modyfikacje. 
+
+\begin{DoxyReturn}{Returns}
+referencja do tablicy 
+\end{DoxyReturn}
+\hypertarget{class_kontener_ab352bcc2f9a14a7981013edcdb785fb2}{\index{Kontener@{Kontener}!wez\-\_\-rozmiar@{wez\-\_\-rozmiar}}
+\index{wez\-\_\-rozmiar@{wez\-\_\-rozmiar}!Kontener@{Kontener}}
+\subsubsection[{wez\-\_\-rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int Kontener\-::wez\-\_\-rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_kontener_ab352bcc2f9a14a7981013edcdb785fb2}
+
+
+Metoda zwracajaca rozmiar tablicy. 
+
+\begin{DoxyReturn}{Returns}
+rozmiar tablicy 
+\end{DoxyReturn}
+\hypertarget{class_kontener_a8fb07326caee494038c084090a92142a}{\index{Kontener@{Kontener}!zamien\-\_\-elementy@{zamien\-\_\-elementy}}
+\index{zamien\-\_\-elementy@{zamien\-\_\-elementy}!Kontener@{Kontener}}
+\subsubsection[{zamien\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void Kontener\-::zamien\-\_\-elementy (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i, }
+\item[{unsigned int}]{j}
+\end{DoxyParamCaption}
+)}}\label{class_kontener_a8fb07326caee494038c084090a92142a}
+
+
+Metoda zamienia ze soba dwa elementy tablicy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i,j} & -\/ indeksy, ktore zostana zamienione \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/kontener.\-hh\item 
+src/kontener.\-cpp\end{DoxyCompactItemize}
