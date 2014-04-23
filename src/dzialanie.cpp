@@ -78,7 +78,7 @@ int Dzialanie::uruchom(string nazwa){
 
 void Dzialanie::wykonajAlgorytm(){
 
-	MergeSort(kontener);
+	Quicksort(&kontener,0,kontener.wez_rozmiar()-1);
 
 }
 
@@ -110,7 +110,35 @@ void Dzialanie::Quicksort( Kontener *tab, int lewy, int prawy)
 
 }
 
+void Dzialanie::Quicksort_lepiej( Kontener *tab, int lewy, int prawy)
+{
+	srand(time(NULL));
+    int i = lewy;
+    int j = prawy;
+    int x = (*tab)[rand()%(prawy-lewy)+lewy];
+    //losowe wybieranie piwotu
+    do
+    {
+        while( (*tab)[ i ] < x )
+             i++;
 
+        while( (*tab)[ j ] > x )
+             j--;
+
+        if( i <= j )
+        {
+            tab->zamien_elementy(i,j);
+
+            i++;
+            j--;
+        }
+    } while( i <= j );
+
+    if( lewy < j ) Quicksort( tab, lewy, j );
+
+    if( prawy > i ) Quicksort( tab, i, prawy);
+
+}
 
 void Dzialanie::uporzadkuj_kopiec(Kontener *kopiec){
 	int dlugosc=kopiec->wez_rozmiar()-1; // ilosc elementow w kopcu

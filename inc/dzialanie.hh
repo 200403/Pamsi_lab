@@ -85,6 +85,14 @@ public:
 	 * \param prawy - indeks konca tablicy
 	 */
 	void Quicksort( Kontener *tab, int lewy, int prawy );
+	/*!
+		 * \brief Metoda implementuj¹ca usprawnione sortowanie szybkie
+		 * 	Wybor piwotu jest losowy, co zmniejsza szanse na pojawienie sie przypadku pesymistycznego
+		 * \param tab - wskaznik na tablice do posortowania
+		 * \param lewy - indeks poczatku tablicy
+		 * \param prawy - indeks konca tablicy
+		 */
+	void Quicksort_lepiej( Kontener *tab, int lewy, int prawy );
 
 	/*!
 		 * \brief Metoda implementuj¹ca sortowanie przez kopcowanie
