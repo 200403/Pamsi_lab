@@ -1,0 +1,104 @@
+\hypertarget{classtab__hash}{\section{tab\-\_\-hash Class Reference}
+\label{classtab__hash}\index{tab\-\_\-hash@{tab\-\_\-hash}}
+}
+
+
+Klasa modelujaca tablice haszujaca z funkcja mieszajaca.  
+
+
+
+
+{\ttfamily \#include $<$hash.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classtab__hash_a39f76bff6274835740800f4928e74572}{dodaj} (std\-::string klucz, int wartosc)
+\begin{DoxyCompactList}\small\item\em Metoda dodajaca pare klucz-\/wartosc do tablicy Dla klucza zostaje wygenerowany indeks tablicy, nastepnie para zostaje dodana pod ten indeks. \end{DoxyCompactList}\item 
+int \hyperlink{classtab__hash_a6aa6a2f8584e197779438c7efc74670e}{pobierz} (std\-::string klucz)
+\begin{DoxyCompactList}\small\item\em Metoda pobiera wartosc spod zadanego klucza Generowany jest indeks tablicy i w liscie spod tego indeksu zostaje wyszukana zadana para. \end{DoxyCompactList}\item 
+bool \hyperlink{classtab__hash_a73d7a7a29585857af57cba5553f1fbdb}{usun} (std\-::string klucz)
+\begin{DoxyCompactList}\small\item\em Metoda usuwa z tablicy pozycje o zadanym kluczu. \end{DoxyCompactList}\item 
+void \hyperlink{classtab__hash_a3df24b45142c2fb0955cd396b5c5f166}{wypisz} ()
+\begin{DoxyCompactList}\small\item\em Metoda pomocnicza, sluzy do wypisania zawartosci tablicy. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modelujaca tablice haszujaca z funkcja mieszajaca. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classtab__hash_a39f76bff6274835740800f4928e74572}{\index{tab\-\_\-hash@{tab\-\_\-hash}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!tab_hash@{tab\-\_\-hash}}
+\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}void tab\-\_\-hash\-::dodaj (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{klucz, }
+\item[{int}]{wartosc}
+\end{DoxyParamCaption}
+)}}\label{classtab__hash_a39f76bff6274835740800f4928e74572}
+
+
+Metoda dodajaca pare klucz-\/wartosc do tablicy Dla klucza zostaje wygenerowany indeks tablicy, nastepnie para zostaje dodana pod ten indeks. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em klucz-\/klucz} & do dodania \\
+\hline
+{\em wartosc-\/wartosc} & do dodania \\
+\hline
+\end{DoxyParams}
+\hypertarget{classtab__hash_a6aa6a2f8584e197779438c7efc74670e}{\index{tab\-\_\-hash@{tab\-\_\-hash}!pobierz@{pobierz}}
+\index{pobierz@{pobierz}!tab_hash@{tab\-\_\-hash}}
+\subsubsection[{pobierz}]{\setlength{\rightskip}{0pt plus 5cm}int tab\-\_\-hash\-::pobierz (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{klucz}
+\end{DoxyParamCaption}
+)}}\label{classtab__hash_a6aa6a2f8584e197779438c7efc74670e}
+
+
+Metoda pobiera wartosc spod zadanego klucza Generowany jest indeks tablicy i w liscie spod tego indeksu zostaje wyszukana zadana para. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em klucz} & -\/ klucz pary ktorej szukamy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+wartosc spod klucza 
+\end{DoxyReturn}
+\hypertarget{classtab__hash_a73d7a7a29585857af57cba5553f1fbdb}{\index{tab\-\_\-hash@{tab\-\_\-hash}!usun@{usun}}
+\index{usun@{usun}!tab_hash@{tab\-\_\-hash}}
+\subsubsection[{usun}]{\setlength{\rightskip}{0pt plus 5cm}bool tab\-\_\-hash\-::usun (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{klucz}
+\end{DoxyParamCaption}
+)}}\label{classtab__hash_a73d7a7a29585857af57cba5553f1fbdb}
+
+
+Metoda usuwa z tablicy pozycje o zadanym kluczu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em klucz} & -\/ klucz ktory zostanie usuniety \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true -\/ gdy klucz zostal usuniety \par
+ false -\/ gdy klucza nie znajeziono 
+\end{DoxyReturn}
+\hypertarget{classtab__hash_a3df24b45142c2fb0955cd396b5c5f166}{\index{tab\-\_\-hash@{tab\-\_\-hash}!wypisz@{wypisz}}
+\index{wypisz@{wypisz}!tab_hash@{tab\-\_\-hash}}
+\subsubsection[{wypisz}]{\setlength{\rightskip}{0pt plus 5cm}void tab\-\_\-hash\-::wypisz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classtab__hash_a3df24b45142c2fb0955cd396b5c5f166}
+
+
+Metoda pomocnicza, sluzy do wypisania zawartosci tablicy. 
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/hash.\-hh\item 
+src/hash.\-cpp\end{DoxyCompactItemize}

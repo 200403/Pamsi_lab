@@ -1,0 +1,131 @@
+\begin{theindex}
+
+  \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{6}
+  \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}znalazlo}
+    \subitem {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {dodaj}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{7}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}hash}, 
+		\hyperpage{8}
+    \subitem {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{10}
+  \item {Dzialanie}, \hyperpage{3}
+    \subitem {sprawdz}, \hyperpage{3}
+    \subitem {wczytaj\discretionary {-}{}{}Dane\discretionary {-}{}{}Wejsciowe}, 
+		\hyperpage{3}
+    \subitem {wykonaj\discretionary {-}{}{}Algorytm}, \hyperpage{4}
+
+  \indexspace
+
+  \item {elem}, \hyperpage{4}
+
+  \indexspace
+
+  \item {klucz}
+    \subitem {Para}, \hyperpage{5}
+
+  \indexspace
+
+  \item {Para}
+    \subitem {klucz}, \hyperpage{5}
+    \subitem {wartosc}, \hyperpage{5}
+  \item {Para$<$ Wartosc $>$}, \hyperpage{4}
+  \item {pobierz}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{7}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}hash}, 
+		\hyperpage{8}
+
+  \indexspace
+
+  \item {rozmiar}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{7}
+
+  \indexspace
+
+  \item {sprawdz}
+    \subitem {Dzialanie}, \hyperpage{3}
+
+  \indexspace
+
+  \item {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}
+    \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}, 
+		\hyperpage{6}
+    \subitem {dodaj}, \hyperpage{7}
+    \subitem {pobierz}, \hyperpage{7}
+    \subitem {rozmiar}, \hyperpage{7}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{6}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{6}
+    \subitem {usun}, \hyperpage{7}
+    \subitem {zmien}, \hyperpage{7}
+  \item {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ Wartosc $>$}, 
+		\hyperpage{6}
+  \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}hash}, 
+		\hyperpage{8}
+    \subitem {dodaj}, \hyperpage{8}
+    \subitem {pobierz}, \hyperpage{8}
+    \subitem {usun}, \hyperpage{8}
+    \subitem {wypisz}, \hyperpage{9}
+  \item {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}
+    \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}znalazlo}, 
+		\hyperpage{10}
+    \subitem {dodaj}, \hyperpage{10}
+    \subitem {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{10}
+    \subitem {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{10}
+    \subitem {usun}, \hyperpage{10}
+    \subitem {zmien}, \hyperpage{11}
+    \subitem {znajdz}, \hyperpage{11}
+  \item {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ Wartosc $>$}, 
+		\hyperpage{9}
+  \item {Tester}, \hyperpage{11}
+    \subitem {zamien\discretionary {-}{}{}Nazwy}, \hyperpage{12}
+
+  \indexspace
+
+  \item {usun}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{7}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}hash}, 
+		\hyperpage{8}
+    \subitem {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{10}
+
+  \indexspace
+
+  \item {wartosc}
+    \subitem {Para}, \hyperpage{5}
+  \item {wczytaj\discretionary {-}{}{}Dane\discretionary {-}{}{}Wejsciowe}
+    \subitem {Dzialanie}, \hyperpage{3}
+  \item {wezel$<$ Wartosc $>$}, \hyperpage{12}
+  \item {wykonaj\discretionary {-}{}{}Algorytm}
+    \subitem {Dzialanie}, \hyperpage{4}
+  \item {wypisz}
+    \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}hash}, 
+		\hyperpage{9}
+
+  \indexspace
+
+  \item {zamien\discretionary {-}{}{}Nazwy}
+    \subitem {Tester}, \hyperpage{12}
+  \item {zmien}
+    \subitem {Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{7}
+    \subitem {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{11}
+  \item {znajdz}
+    \subitem {Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{11}
+
+\end{theindex}

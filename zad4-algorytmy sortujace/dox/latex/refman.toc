@@ -1,0 +1,61 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Dzialanie Class Reference}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{4}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Member Function Documentation}{4}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}heap}{4}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}merge}{4}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}Merge\discretionary {-}{}{}Sort}{4}{subsubsection.2.1.2.3}
+\contentsline {subsubsection}{\numberline {2.1.2.4}Quicksort}{4}{subsubsection.2.1.2.4}
+\contentsline {subsubsection}{\numberline {2.1.2.5}sprawdz}{5}{subsubsection.2.1.2.5}
+\contentsline {subsubsection}{\numberline {2.1.2.6}uporzadkuj\discretionary {-}{}{}\_\discretionary {-}{}{}kopiec}{5}{subsubsection.2.1.2.6}
+\contentsline {subsubsection}{\numberline {2.1.2.7}wczytaj\discretionary {-}{}{}Dane\discretionary {-}{}{}Wejsciowe}{5}{subsubsection.2.1.2.7}
+\contentsline {subsubsection}{\numberline {2.1.2.8}wlacz\discretionary {-}{}{}Stoper}{5}{subsubsection.2.1.2.8}
+\contentsline {subsubsection}{\numberline {2.1.2.9}wykonaj\discretionary {-}{}{}Algorytm}{5}{subsubsection.2.1.2.9}
+\contentsline {subsubsection}{\numberline {2.1.2.10}wylacz\discretionary {-}{}{}Stoper}{6}{subsubsection.2.1.2.10}
+\contentsline {section}{\numberline {2.2}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}list Class Reference}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Member Function Documentation}{6}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}dequeue}{6}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}enqueue}{6}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}isempty}{7}{subsubsection.2.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.2.4}size}{7}{subsubsection.2.2.2.4}
+\contentsline {section}{\numberline {2.3}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tab Class Reference}{7}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Detailed Description}{7}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Member Function Documentation}{8}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}dequeue}{8}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}enqueue}{8}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}isempty}{8}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}size}{8}{subsubsection.2.3.2.4}
+\contentsline {section}{\numberline {2.4}Kontener Class Reference}{8}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Detailed Description}{9}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Member Function Documentation}{9}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}{9}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{9}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}operator+}{10}{subsubsection.2.4.2.3}
+\contentsline {subsubsection}{\numberline {2.4.2.4}operator=}{10}{subsubsection.2.4.2.4}
+\contentsline {subsubsection}{\numberline {2.4.2.5}operator==}{10}{subsubsection.2.4.2.5}
+\contentsline {subsubsection}{\numberline {2.4.2.6}operator[]}{10}{subsubsection.2.4.2.6}
+\contentsline {subsubsection}{\numberline {2.4.2.7}wczytaj\discretionary {-}{}{}Dane}{10}{subsubsection.2.4.2.7}
+\contentsline {subsubsection}{\numberline {2.4.2.8}wez\discretionary {-}{}{}\_\discretionary {-}{}{}dane}{11}{subsubsection.2.4.2.8}
+\contentsline {subsubsection}{\numberline {2.4.2.9}wez\discretionary {-}{}{}\_\discretionary {-}{}{}rozmiar}{11}{subsubsection.2.4.2.9}
+\contentsline {subsubsection}{\numberline {2.4.2.10}zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{11}{subsubsection.2.4.2.10}
+\contentsline {section}{\numberline {2.5}stos\discretionary {-}{}{}\_\discretionary {-}{}{}list Class Reference}{11}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{12}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Member Function Documentation}{12}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}isempty}{12}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}pop}{12}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}push}{12}{subsubsection.2.5.2.3}
+\contentsline {subsubsection}{\numberline {2.5.2.4}size}{12}{subsubsection.2.5.2.4}
+\contentsline {section}{\numberline {2.6}stos\discretionary {-}{}{}\_\discretionary {-}{}{}tab Class Reference}{12}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Detailed Description}{13}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Member Function Documentation}{13}{subsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.2.1}isempty}{13}{subsubsection.2.6.2.1}
+\contentsline {subsubsection}{\numberline {2.6.2.2}pop}{13}{subsubsection.2.6.2.2}
+\contentsline {subsubsection}{\numberline {2.6.2.3}push}{13}{subsubsection.2.6.2.3}
+\contentsline {subsubsection}{\numberline {2.6.2.4}size}{14}{subsubsection.2.6.2.4}
+\contentsline {section}{\numberline {2.7}Tester Class Reference}{14}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Detailed Description}{14}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Member Function Documentation}{14}{subsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.2.1}zamien\discretionary {-}{}{}Nazwy}{14}{subsubsection.2.7.2.1}

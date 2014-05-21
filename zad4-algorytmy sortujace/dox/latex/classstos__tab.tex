@@ -1,0 +1,104 @@
+\hypertarget{classstos__tab}{\section{stos\-\_\-tab Class Reference}
+\label{classstos__tab}\index{stos\-\_\-tab@{stos\-\_\-tab}}
+}
+
+
+Klasa modelujaca strukture stosu Stos jest zbudowany w oparciu o tablice.  
+
+
+
+
+{\ttfamily \#include $<$stos\-\_\-tab.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classstos__tab_a57087c3536dd95373d29687bc67add5b}{{\bfseries stos\-\_\-tab} (int zwieksz)}\label{classstos__tab_a57087c3536dd95373d29687bc67add5b}
+
+\item 
+void \hyperlink{classstos__tab_a9a71759b07b389be638f5d30184abfbb}{push} (int element)
+\begin{DoxyCompactList}\small\item\em Metoda dodajaca element na stos Metoda dodaje element na koniec tablicy. W przypadku gdy tablica jest pelna zostaje ona powiekszona o 1 element. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__tab_ac712f40774c01e8172e55d0a84d6556b}{pop} (int $\ast$a)
+\begin{DoxyCompactList}\small\item\em Metoda usuwajaca element ze stos Metoda usuwa element znajdujacy sie na koncu tablicy. Z kazdorazowym pobraniem danych rozmiar tablicy jest zmniejszany o 1. \end{DoxyCompactList}\item 
+bool \hyperlink{classstos__tab_ae330da440974774718d3c268b951ffae}{isempty} ()
+\begin{DoxyCompactList}\small\item\em Metoda sprawdzajaca czy stos jest pusty. Metoda sprawdza czy stos jest pusty. Sprawdzenie polega na odczytaniu zmiennej rozmiar, \par
+ ktora pamieta ile jest elementow na stosie. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__tab_a424bfe5bdc7bc7a70bd1209052ec4de9}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracajaca rozmiar stosu Metoda zwraca rozmiar stosu. Rozmiar stosu przechowywany jest w zmiennej rozmiar. \end{DoxyCompactList}\item 
+\hypertarget{classstos__tab_a86c345d9cbe2aaf711e188c2132b64e0}{void {\bfseries wyswietl} ()}\label{classstos__tab_a86c345d9cbe2aaf711e188c2132b64e0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modelujaca strukture stosu Stos jest zbudowany w oparciu o tablice. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classstos__tab_ae330da440974774718d3c268b951ffae}{\index{stos\-\_\-tab@{stos\-\_\-tab}!isempty@{isempty}}
+\index{isempty@{isempty}!stos_tab@{stos\-\_\-tab}}
+\subsubsection[{isempty}]{\setlength{\rightskip}{0pt plus 5cm}bool stos\-\_\-tab\-::isempty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tab_ae330da440974774718d3c268b951ffae}
+
+
+Metoda sprawdzajaca czy stos jest pusty. Metoda sprawdza czy stos jest pusty. Sprawdzenie polega na odczytaniu zmiennej rozmiar, \par
+ ktora pamieta ile jest elementow na stosie. 
+
+\begin{DoxyReturn}{Returns}
+true -\/ rozmiar == 0 \par
+ false -\/ rozmiar $>$ 0. 
+\end{DoxyReturn}
+\hypertarget{classstos__tab_ac712f40774c01e8172e55d0a84d6556b}{\index{stos\-\_\-tab@{stos\-\_\-tab}!pop@{pop}}
+\index{pop@{pop}!stos_tab@{stos\-\_\-tab}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tab\-::pop (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{a}
+\end{DoxyParamCaption}
+)}}\label{classstos__tab_ac712f40774c01e8172e55d0a84d6556b}
+
+
+Metoda usuwajaca element ze stos Metoda usuwa element znajdujacy sie na koncu tablicy. Z kazdorazowym pobraniem danych rozmiar tablicy jest zmniejszany o 1. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ wskaznik do zmiennej, do ktorej sciagamy wartosc. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classstos__tab_a9a71759b07b389be638f5d30184abfbb}{\index{stos\-\_\-tab@{stos\-\_\-tab}!push@{push}}
+\index{push@{push}!stos_tab@{stos\-\_\-tab}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-tab\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{element}
+\end{DoxyParamCaption}
+)}}\label{classstos__tab_a9a71759b07b389be638f5d30184abfbb}
+
+
+Metoda dodajaca element na stos Metoda dodaje element na koniec tablicy. W przypadku gdy tablica jest pelna zostaje ona powiekszona o 1 element. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em element} & -\/ element, ktory zostanie dodany do stosu \\
+\hline
+\end{DoxyParams}
+\hypertarget{classstos__tab_a424bfe5bdc7bc7a70bd1209052ec4de9}{\index{stos\-\_\-tab@{stos\-\_\-tab}!size@{size}}
+\index{size@{size}!stos_tab@{stos\-\_\-tab}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-tab\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__tab_a424bfe5bdc7bc7a70bd1209052ec4de9}
+
+
+Metoda zwracajaca rozmiar stosu Metoda zwraca rozmiar stosu. Rozmiar stosu przechowywany jest w zmiennej rozmiar. 
+
+\begin{DoxyReturn}{Returns}
+rozmiar stosu. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/stos\-\_\-tab.\-hh\item 
+src/stos\-\_\-tab.\-cpp\end{DoxyCompactItemize}

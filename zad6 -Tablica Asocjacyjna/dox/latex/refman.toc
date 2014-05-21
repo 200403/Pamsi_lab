@@ -1,0 +1,51 @@
+\contentsline {chapter}{\numberline {1}Class Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class List}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Documentation}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Dzialanie Class Reference}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Member Function Documentation}{3}{subsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.2.1}sprawdz}{3}{subsubsection.2.1.2.1}
+\contentsline {subsubsection}{\numberline {2.1.2.2}wczytaj\discretionary {-}{}{}Dane\discretionary {-}{}{}Wejsciowe}{4}{subsubsection.2.1.2.2}
+\contentsline {subsubsection}{\numberline {2.1.2.3}wykonaj\discretionary {-}{}{}Algorytm}{4}{subsubsection.2.1.2.3}
+\contentsline {section}{\numberline {2.2}elem Struct Reference}{4}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{4}{subsection.2.2.1}
+\contentsline {section}{\numberline {2.3}Para$<$ Wartosc $>$ Class Template Reference}{4}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Detailed Description}{5}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Member Function Documentation}{5}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}klucz}{5}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}klucz}{5}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}wartosc}{5}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}wartosc}{6}{subsubsection.2.3.2.4}
+\contentsline {section}{\numberline {2.4}Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ Wartosc $>$ Class Template Reference}{6}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Constructor \& Destructor Documentation}{6}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Tab\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}{6}{subsubsection.2.4.1.1}
+\contentsline {subsection}{\numberline {2.4.2}Member Function Documentation}{6}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}{6}{subsubsection.2.4.2.1}
+\contentsline {subsubsection}{\numberline {2.4.2.2}dodaj}{7}{subsubsection.2.4.2.2}
+\contentsline {subsubsection}{\numberline {2.4.2.3}pobierz}{7}{subsubsection.2.4.2.3}
+\contentsline {subsubsection}{\numberline {2.4.2.4}rozmiar}{7}{subsubsection.2.4.2.4}
+\contentsline {subsubsection}{\numberline {2.4.2.5}usun}{7}{subsubsection.2.4.2.5}
+\contentsline {subsubsection}{\numberline {2.4.2.6}zmien}{7}{subsubsection.2.4.2.6}
+\contentsline {section}{\numberline {2.5}tab\discretionary {-}{}{}\_\discretionary {-}{}{}hash Class Reference}{8}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Detailed Description}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Member Function Documentation}{8}{subsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.5.2.1}dodaj}{8}{subsubsection.2.5.2.1}
+\contentsline {subsubsection}{\numberline {2.5.2.2}pobierz}{8}{subsubsection.2.5.2.2}
+\contentsline {subsubsection}{\numberline {2.5.2.3}usun}{8}{subsubsection.2.5.2.3}
+\contentsline {subsubsection}{\numberline {2.5.2.4}wypisz}{9}{subsubsection.2.5.2.4}
+\contentsline {section}{\numberline {2.6}Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ Wartosc $>$ Class Template Reference}{9}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Detailed Description}{10}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Constructor \& Destructor Documentation}{10}{subsection.2.6.2}
+\contentsline {subsubsection}{\numberline {2.6.2.1}Tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}{10}{subsubsection.2.6.2.1}
+\contentsline {subsection}{\numberline {2.6.3}Member Function Documentation}{10}{subsection.2.6.3}
+\contentsline {subsubsection}{\numberline {2.6.3.1}czy\discretionary {-}{}{}\_\discretionary {-}{}{}znalazlo}{10}{subsubsection.2.6.3.1}
+\contentsline {subsubsection}{\numberline {2.6.3.2}dodaj}{10}{subsubsection.2.6.3.2}
+\contentsline {subsubsection}{\numberline {2.6.3.3}usun}{10}{subsubsection.2.6.3.3}
+\contentsline {subsubsection}{\numberline {2.6.3.4}zmien}{11}{subsubsection.2.6.3.4}
+\contentsline {subsubsection}{\numberline {2.6.3.5}znajdz}{11}{subsubsection.2.6.3.5}
+\contentsline {section}{\numberline {2.7}Tester Class Reference}{11}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Detailed Description}{12}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Member Function Documentation}{12}{subsection.2.7.2}
+\contentsline {subsubsection}{\numberline {2.7.2.1}zamien\discretionary {-}{}{}Nazwy}{12}{subsubsection.2.7.2.1}
+\contentsline {section}{\numberline {2.8}wezel$<$ Wartosc $>$ Struct Template Reference}{12}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Detailed Description}{12}{subsection.2.8.1}

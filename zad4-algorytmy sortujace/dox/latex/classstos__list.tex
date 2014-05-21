@@ -1,0 +1,98 @@
+\hypertarget{classstos__list}{\section{stos\-\_\-list Class Reference}
+\label{classstos__list}\index{stos\-\_\-list@{stos\-\_\-list}}
+}
+
+
+Klasa modelujaca strukture stosu Stos jest zbudowany w oparciu o liste.  
+
+
+
+
+{\ttfamily \#include $<$stos\-\_\-list.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classstos__list_ab42b4afb896df8c96e3d7d3368e1b6aa}{push} (int element)
+\begin{DoxyCompactList}\small\item\em Metoda dodajaca element na stos Metoda dodaje element na koniec listy. \end{DoxyCompactList}\item 
+void \hyperlink{classstos__list_ad29628ac4ae96bf1145930f0c2f5905e}{pop} (int $\ast$a)
+\begin{DoxyCompactList}\small\item\em Metoda usuwajaca element ze stos Metoda usuwa element znajdujacy sie na koncu listy. Gdy stos jest pusty, wyswietlony zostaje blad mowiacy ze brak danych do sciagniecia. \end{DoxyCompactList}\item 
+bool \hyperlink{classstos__list_acd220e524ab429fb1627f3c7b119057d}{isempty} ()
+\begin{DoxyCompactList}\small\item\em Metoda sprawdzajaca czy stos jest pusty. Metoda sprawdza czy stos jest pusty. \end{DoxyCompactList}\item 
+int \hyperlink{classstos__list_a221772ced817fd589be27cced0e92bb8}{size} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracajaca rozmiar stosu Metoda zwraca rozmiar listy. \end{DoxyCompactList}\item 
+\hypertarget{classstos__list_ab1f73a738aa290f0bcaf97e70218f04e}{void {\bfseries wyswietl} ()}\label{classstos__list_ab1f73a738aa290f0bcaf97e70218f04e}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modelujaca strukture stosu Stos jest zbudowany w oparciu o liste. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classstos__list_acd220e524ab429fb1627f3c7b119057d}{\index{stos\-\_\-list@{stos\-\_\-list}!isempty@{isempty}}
+\index{isempty@{isempty}!stos_list@{stos\-\_\-list}}
+\subsubsection[{isempty}]{\setlength{\rightskip}{0pt plus 5cm}bool stos\-\_\-list\-::isempty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__list_acd220e524ab429fb1627f3c7b119057d}
+
+
+Metoda sprawdzajaca czy stos jest pusty. Metoda sprawdza czy stos jest pusty. 
+
+\begin{DoxyReturn}{Returns}
+lista.\-empty(); 
+\end{DoxyReturn}
+\hypertarget{classstos__list_ad29628ac4ae96bf1145930f0c2f5905e}{\index{stos\-\_\-list@{stos\-\_\-list}!pop@{pop}}
+\index{pop@{pop}!stos_list@{stos\-\_\-list}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-list\-::pop (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{a}
+\end{DoxyParamCaption}
+)}}\label{classstos__list_ad29628ac4ae96bf1145930f0c2f5905e}
+
+
+Metoda usuwajaca element ze stos Metoda usuwa element znajdujacy sie na koncu listy. Gdy stos jest pusty, wyswietlony zostaje blad mowiacy ze brak danych do sciagniecia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & -\/ wskaznik do zmiennej, do ktorej sciagamy wartosc. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classstos__list_ab42b4afb896df8c96e3d7d3368e1b6aa}{\index{stos\-\_\-list@{stos\-\_\-list}!push@{push}}
+\index{push@{push}!stos_list@{stos\-\_\-list}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void stos\-\_\-list\-::push (
+\begin{DoxyParamCaption}
+\item[{int}]{element}
+\end{DoxyParamCaption}
+)}}\label{classstos__list_ab42b4afb896df8c96e3d7d3368e1b6aa}
+
+
+Metoda dodajaca element na stos Metoda dodaje element na koniec listy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em element} & -\/ element, ktory zostanie dodany do stosu \\
+\hline
+\end{DoxyParams}
+\hypertarget{classstos__list_a221772ced817fd589be27cced0e92bb8}{\index{stos\-\_\-list@{stos\-\_\-list}!size@{size}}
+\index{size@{size}!stos_list@{stos\-\_\-list}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int stos\-\_\-list\-::size (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classstos__list_a221772ced817fd589be27cced0e92bb8}
+
+
+Metoda zwracajaca rozmiar stosu Metoda zwraca rozmiar listy. 
+
+\begin{DoxyReturn}{Returns}
+rozmiar stosu. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/stos\-\_\-list.\-hh\item 
+src/stos\-\_\-list.\-cpp\end{DoxyCompactItemize}

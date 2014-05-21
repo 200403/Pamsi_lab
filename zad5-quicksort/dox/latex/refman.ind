@@ -1,0 +1,147 @@
+\begin{theindex}
+
+  \item {dequeue}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{7}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{8}
+  \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}
+    \subitem {Kontener}, \hyperpage{10}
+  \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
+    \subitem {Kontener}, \hyperpage{10}
+  \item {Dzialanie}, \hyperpage{5}
+    \subitem {sprawdz}, \hyperpage{5}
+    \subitem {wczytaj\discretionary {-}{}{}Dane\discretionary {-}{}{}Wejsciowe}, 
+		\hyperpage{6}
+    \subitem {wlacz\discretionary {-}{}{}Stoper}, \hyperpage{6}
+    \subitem {wykonaj\discretionary {-}{}{}Algorytm}, \hyperpage{6}
+    \subitem {wylacz\discretionary {-}{}{}Stoper}, \hyperpage{6}
+
+  \indexspace
+
+  \item {enqueue}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{7}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{8}
+
+  \indexspace
+
+  \item {isempty}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{7}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{9}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{12}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{7}
+    \subitem {dequeue}, \hyperpage{7}
+    \subitem {enqueue}, \hyperpage{7}
+    \subitem {isempty}, \hyperpage{7}
+    \subitem {size}, \hyperpage{7}
+  \item {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{8}
+    \subitem {dequeue}, \hyperpage{8}
+    \subitem {enqueue}, \hyperpage{8}
+    \subitem {isempty}, \hyperpage{9}
+    \subitem {size}, \hyperpage{9}
+  \item {Kontener}, \hyperpage{9}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
+		\hyperpage{10}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{10}
+    \subitem {operator+}, \hyperpage{10}
+    \subitem {operator=}, \hyperpage{10}
+    \subitem {operator==}, \hyperpage{10}
+    \subitem {wczytaj\discretionary {-}{}{}Dane}, \hyperpage{11}
+    \subitem {wez\discretionary {-}{}{}\_\discretionary {-}{}{}dane}, 
+		\hyperpage{11}
+    \subitem {wez\discretionary {-}{}{}\_\discretionary {-}{}{}rozmiar}, 
+		\hyperpage{11}
+    \subitem {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
+		\hyperpage{12}
+
+  \indexspace
+
+  \item {operator+}
+    \subitem {Kontener}, \hyperpage{10}
+  \item {operator=}
+    \subitem {Kontener}, \hyperpage{10}
+  \item {operator==}
+    \subitem {Kontener}, \hyperpage{10}
+
+  \indexspace
+
+  \item {pop}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{12}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{14}
+  \item {push}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{13}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{14}
+
+  \indexspace
+
+  \item {size}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{7}
+    \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{9}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{13}
+    \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{14}
+  \item {sprawdz}
+    \subitem {Dzialanie}, \hyperpage{5}
+  \item {stos\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
+		\hyperpage{12}
+    \subitem {isempty}, \hyperpage{12}
+    \subitem {pop}, \hyperpage{12}
+    \subitem {push}, \hyperpage{13}
+    \subitem {size}, \hyperpage{13}
+  \item {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
+		\hyperpage{13}
+    \subitem {isempty}, \hyperpage{14}
+    \subitem {pop}, \hyperpage{14}
+    \subitem {push}, \hyperpage{14}
+    \subitem {size}, \hyperpage{14}
+
+  \indexspace
+
+  \item {Tester}, \hyperpage{14}
+    \subitem {zamien\discretionary {-}{}{}Nazwy}, \hyperpage{15}
+
+  \indexspace
+
+  \item {wczytaj\discretionary {-}{}{}Dane}
+    \subitem {Kontener}, \hyperpage{11}
+  \item {wczytaj\discretionary {-}{}{}Dane\discretionary {-}{}{}Wejsciowe}
+    \subitem {Dzialanie}, \hyperpage{6}
+  \item {wez\discretionary {-}{}{}\_\discretionary {-}{}{}dane}
+    \subitem {Kontener}, \hyperpage{11}
+  \item {wez\discretionary {-}{}{}\_\discretionary {-}{}{}rozmiar}
+    \subitem {Kontener}, \hyperpage{11}
+  \item {wlacz\discretionary {-}{}{}Stoper}
+    \subitem {Dzialanie}, \hyperpage{6}
+  \item {wykonaj\discretionary {-}{}{}Algorytm}
+    \subitem {Dzialanie}, \hyperpage{6}
+  \item {wylacz\discretionary {-}{}{}Stoper}
+    \subitem {Dzialanie}, \hyperpage{6}
+
+  \indexspace
+
+  \item {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
+    \subitem {Kontener}, \hyperpage{12}
+  \item {zamien\discretionary {-}{}{}Nazwy}
+    \subitem {Tester}, \hyperpage{15}
+
+\end{theindex}

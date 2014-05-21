@@ -1,0 +1,149 @@
+\hypertarget{class_tab__asocjacyjna}{\section{Tab\-\_\-asocjacyjna$<$ Wartosc $>$ Class Template Reference}
+\label{class_tab__asocjacyjna}\index{Tab\-\_\-asocjacyjna$<$ Wartosc $>$@{Tab\-\_\-asocjacyjna$<$ Wartosc $>$}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tab__asocjacyjna_a465457801b64312222d3fb84e619c36d}{Tab\-\_\-asocjacyjna} ()
+\begin{DoxyCompactList}\small\item\em Meteoda dodaje pare klucz-\/warotsc do tablicy. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tab__asocjacyjna_aa7c10f41430741e807cefe28eaf4eefd}{dodaj} (std\-::string klucz, Wartosc wartosc)
+\begin{DoxyCompactList}\small\item\em Metoda dodaje pare klucz-\/wartosc do drzewa W przypadku gdy dany klucz juz istnieje to wartosc, ktora jest z nim skojarzona zostaje zastapiona ta\par
+ podana w argumencie \char`\"{}wartosc\char`\"{}. \end{DoxyCompactList}\item 
+Wartosc \hyperlink{class_tab__asocjacyjna_a476dbee271544484ee672bbddbd64aaf}{pobierz} (std\-::string klucz) const 
+\begin{DoxyCompactList}\small\item\em Metoda pobiera wartosc przypisana pod zadanym kluczem. \end{DoxyCompactList}\item 
+void \hyperlink{class_tab__asocjacyjna_ab83db4aa7d437e5d494bb9afc1f7100c}{zmien} (string klucz, Wartosc wartosc)
+\begin{DoxyCompactList}\small\item\em Metoda zmienia wartosc pod danym kluczem na ta zadana. \end{DoxyCompactList}\item 
+bool \hyperlink{class_tab__asocjacyjna_ab631e0224755e0b2399afe8bd00cf4a6}{usun} (string klucz)
+\begin{DoxyCompactList}\small\item\em Metoda usuwa pozycje zawierajaca podany klucz. \end{DoxyCompactList}\item 
+const bool \hyperlink{class_tab__asocjacyjna_ac14855ad2c0ac4b15dbe2f43eec83b8e}{czy\-\_\-pusta} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwraca informacje czy drzewo jest puste. \end{DoxyCompactList}\item 
+const int \hyperlink{class_tab__asocjacyjna_ac81569c5e7c033f29a01dfb1b556538c}{rozmiar} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwraca ilosc elementow na dzrzewie. \end{DoxyCompactList}\item 
+\hypertarget{class_tab__asocjacyjna_a14d0c98325b4770bace42a986aa3e458}{void \hyperlink{class_tab__asocjacyjna_a14d0c98325b4770bace42a986aa3e458}{wypisz} (string klucz)}\label{class_tab__asocjacyjna_a14d0c98325b4770bace42a986aa3e458}
+
+\begin{DoxyCompactList}\small\item\em Metoda pomocnicza, ktora wypisuje zawartosc drzewa Powstala w celach testowych. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_tab__asocjacyjna_a465457801b64312222d3fb84e619c36d}{\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!Tab_asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\subsubsection[{Tab\-\_\-asocjacyjna}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Wartosc $>$ {\bf Tab\-\_\-asocjacyjna}$<$ Wartosc $>$\-::{\bf Tab\-\_\-asocjacyjna} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tab__asocjacyjna_a465457801b64312222d3fb84e619c36d}
+
+
+Meteoda dodaje pare klucz-\/warotsc do tablicy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em klucz} & \\
+\hline
+{\em wartosc} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tab__asocjacyjna_ac14855ad2c0ac4b15dbe2f43eec83b8e}{\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!czy\-\_\-pusta@{czy\-\_\-pusta}}
+\index{czy\-\_\-pusta@{czy\-\_\-pusta}!Tab_asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\subsubsection[{czy\-\_\-pusta}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Wartosc $>$ const bool {\bf Tab\-\_\-asocjacyjna}$<$ Wartosc $>$\-::czy\-\_\-pusta (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tab__asocjacyjna_ac14855ad2c0ac4b15dbe2f43eec83b8e}
+
+
+Metoda zwraca informacje czy drzewo jest puste. 
+
+\begin{DoxyReturn}{Returns}
+true gdy puste \par
+ false gdy nie puste 
+\end{DoxyReturn}
+\hypertarget{class_tab__asocjacyjna_aa7c10f41430741e807cefe28eaf4eefd}{\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!Tab_asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Wartosc $>$ bool {\bf Tab\-\_\-asocjacyjna}$<$ Wartosc $>$\-::dodaj (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{klucz, }
+\item[{Wartosc}]{wartosc}
+\end{DoxyParamCaption}
+)}}\label{class_tab__asocjacyjna_aa7c10f41430741e807cefe28eaf4eefd}
+
+
+Metoda dodaje pare klucz-\/wartosc do drzewa W przypadku gdy dany klucz juz istnieje to wartosc, ktora jest z nim skojarzona zostaje zastapiona ta\par
+ podana w argumencie \char`\"{}wartosc\char`\"{}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em klucz-\/nazwa} & klucza \\
+\hline
+\mbox{\tt in}  & {\em wartosc-\/wartosc} & do zapisania \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tab__asocjacyjna_a476dbee271544484ee672bbddbd64aaf}{\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!pobierz@{pobierz}}
+\index{pobierz@{pobierz}!Tab_asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\subsubsection[{pobierz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Wartosc $>$ Wartosc {\bf Tab\-\_\-asocjacyjna}$<$ Wartosc $>$\-::pobierz (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{klucz}
+\end{DoxyParamCaption}
+) const}}\label{class_tab__asocjacyjna_a476dbee271544484ee672bbddbd64aaf}
+
+
+Metoda pobiera wartosc przypisana pod zadanym kluczem. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em klucz-\/} & nazwa klucza, ktorego szukamy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+wartosc spod zadanego klucza 
+\end{DoxyReturn}
+\hypertarget{class_tab__asocjacyjna_ac81569c5e7c033f29a01dfb1b556538c}{\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!rozmiar@{rozmiar}}
+\index{rozmiar@{rozmiar}!Tab_asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\subsubsection[{rozmiar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Wartosc $>$ const int {\bf Tab\-\_\-asocjacyjna}$<$ Wartosc $>$\-::rozmiar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tab__asocjacyjna_ac81569c5e7c033f29a01dfb1b556538c}
+
+
+Metoda zwraca ilosc elementow na dzrzewie. 
+
+\begin{DoxyReturn}{Returns}
+ilosc elementow 
+\end{DoxyReturn}
+\hypertarget{class_tab__asocjacyjna_ab631e0224755e0b2399afe8bd00cf4a6}{\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!usun@{usun}}
+\index{usun@{usun}!Tab_asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\subsubsection[{usun}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Wartosc $>$ bool {\bf Tab\-\_\-asocjacyjna}$<$ Wartosc $>$\-::usun (
+\begin{DoxyParamCaption}
+\item[{string}]{klucz}
+\end{DoxyParamCaption}
+)}}\label{class_tab__asocjacyjna_ab631e0224755e0b2399afe8bd00cf4a6}
+
+
+Metoda usuwa pozycje zawierajaca podany klucz. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em klucz-\/klucz} & do usuniecia \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tab__asocjacyjna_ab83db4aa7d437e5d494bb9afc1f7100c}{\index{Tab\-\_\-asocjacyjna@{Tab\-\_\-asocjacyjna}!zmien@{zmien}}
+\index{zmien@{zmien}!Tab_asocjacyjna@{Tab\-\_\-asocjacyjna}}
+\subsubsection[{zmien}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename Wartosc $>$ void {\bf Tab\-\_\-asocjacyjna}$<$ Wartosc $>$\-::zmien (
+\begin{DoxyParamCaption}
+\item[{string}]{klucz, }
+\item[{Wartosc}]{wartosc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{class_tab__asocjacyjna_ab83db4aa7d437e5d494bb9afc1f7100c}
+
+
+Metoda zmienia wartosc pod danym kluczem na ta zadana. 
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+inc/drzewo.\-hh\end{DoxyCompactItemize}

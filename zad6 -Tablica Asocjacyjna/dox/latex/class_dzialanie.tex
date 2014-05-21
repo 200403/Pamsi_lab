@@ -1,0 +1,92 @@
+\hypertarget{class_dzialanie}{\section{Dzialanie Class Reference}
+\label{class_dzialanie}\index{Dzialanie@{Dzialanie}}
+}
+
+
+Klasa modelujaca g³owna czesc programu.  
+
+
+
+
+{\ttfamily \#include $<$dzialanie.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_dzialanie_a701d7d710735eea1613a1bd6119f0538}{wczytaj\-Dane\-Wejsciowe} (string nazwa)
+\begin{DoxyCompactList}\small\item\em metoda wczytuje dane do tablicy znajdujacej sie w zmiennej wejscie. \end{DoxyCompactList}\item 
+void \hyperlink{class_dzialanie_a91781228f7e130909dbfcddcb437e5a7}{wykonaj\-Algorytm} ()
+\begin{DoxyCompactList}\small\item\em Metoda wykonuje algorytm na danych wejsciowych ( tablicy) \end{DoxyCompactList}\item 
+bool \hyperlink{class_dzialanie_a5159ca35ea3a03829fba79f3b6fd6e20}{sprawdz} ()
+\begin{DoxyCompactList}\small\item\em Metoda sprawdza poprawnosc algorytmu. \end{DoxyCompactList}\item 
+\hypertarget{class_dzialanie_acd1c5fd2ab535f7a747aef63962d5153}{int \hyperlink{class_dzialanie_acd1c5fd2ab535f7a747aef63962d5153}{uruchom} (int j)}\label{class_dzialanie_acd1c5fd2ab535f7a747aef63962d5153}
+
+\begin{DoxyCompactList}\small\item\em Metoda wykonuje jednorazowy test algorytmu Metoda\-: -\/wlacza zegar -\/wykonuje algorytm -\/wylacza zegar -\/sprawdza poprawnosc algorytmu return czas wykonywania algorytmu w milisekundach. \end{DoxyCompactList}\item 
+\hypertarget{class_dzialanie_a49e05b79618737596fb51a6027172b0c}{int {\bfseries wez\-\_\-rozmiar} ()}\label{class_dzialanie_a49e05b79618737596fb51a6027172b0c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modelujaca g³owna czesc programu. 
+
+Klasa modeluje glowna czesc porgramu, ktorego zadaniem jest\-: -\/wczytanie danych -\/zmierzenie czasu dzialania algorytmu -\/sprawdzenie poprawnosci tego algorytmu, majac oczekiwany wynik 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_dzialanie_a5159ca35ea3a03829fba79f3b6fd6e20}{\index{Dzialanie@{Dzialanie}!sprawdz@{sprawdz}}
+\index{sprawdz@{sprawdz}!Dzialanie@{Dzialanie}}
+\subsubsection[{sprawdz}]{\setlength{\rightskip}{0pt plus 5cm}bool Dzialanie\-::sprawdz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_a5159ca35ea3a03829fba79f3b6fd6e20}
+
+
+Metoda sprawdza poprawnosc algorytmu. 
+
+Wczytywane sa poprawne dane wynikowe, a nastepnie sa one porownywane z tymi otrzymanymi przez wykonanie algorytmu
+
+\begin{DoxyReturn}{Returns}
+0 -\/ gdy algorytm jest poprawny, -\/1 -\/ gdy nie. 
+\end{DoxyReturn}
+\hypertarget{class_dzialanie_a701d7d710735eea1613a1bd6119f0538}{\index{Dzialanie@{Dzialanie}!wczytaj\-Dane\-Wejsciowe@{wczytaj\-Dane\-Wejsciowe}}
+\index{wczytaj\-Dane\-Wejsciowe@{wczytaj\-Dane\-Wejsciowe}!Dzialanie@{Dzialanie}}
+\subsubsection[{wczytaj\-Dane\-Wejsciowe}]{\setlength{\rightskip}{0pt plus 5cm}void Dzialanie\-::wczytaj\-Dane\-Wejsciowe (
+\begin{DoxyParamCaption}
+\item[{string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_a701d7d710735eea1613a1bd6119f0538}
+
+
+metoda wczytuje dane do tablicy znajdujacej sie w zmiennej wejscie. 
+
+Format danych w pliku jest nastepujacy\-: pierwszy wiersz -\/ ilosc elementow, a nastepnie w kolumnie kolejne wartosci tablicy. 
+\begin{DoxyParams}{Parameters}
+{\em nazwa\-Pliku} & -\/ nazwa pliku do otwarcia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\hypertarget{class_dzialanie_a91781228f7e130909dbfcddcb437e5a7}{\index{Dzialanie@{Dzialanie}!wykonaj\-Algorytm@{wykonaj\-Algorytm}}
+\index{wykonaj\-Algorytm@{wykonaj\-Algorytm}!Dzialanie@{Dzialanie}}
+\subsubsection[{wykonaj\-Algorytm}]{\setlength{\rightskip}{0pt plus 5cm}void Dzialanie\-::wykonaj\-Algorytm (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_dzialanie_a91781228f7e130909dbfcddcb437e5a7}
+
+
+Metoda wykonuje algorytm na danych wejsciowych ( tablicy) 
+
+Algorytm do wykonania \-: pomnoz kazdy element razy 2.
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/dzialanie.\-hh\item 
+src/dzialanie.\-cpp\end{DoxyCompactItemize}
