@@ -1,0 +1,31 @@
+\begin{theindex}
+
+  \item {cena}
+    \subitem {przedmiot}, \hyperpage{5}
+
+  \indexspace
+
+  \item {plecak}, \hyperpage{3}
+    \subitem {plecak}, \hyperpage{3}
+    \subitem {rozwiaz\discretionary {-}{}{}\_\discretionary {-}{}{}problem}, 
+		\hyperpage{4}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}pliku}, 
+		\hyperpage{4}
+  \item {przedmiot}, \hyperpage{4}
+    \subitem {cena}, \hyperpage{5}
+    \subitem {przedmiot}, \hyperpage{5}
+    \subitem {waga}, \hyperpage{5}
+
+  \indexspace
+
+  \item {rozwiaz\discretionary {-}{}{}\_\discretionary {-}{}{}problem}
+    \subitem {plecak}, \hyperpage{4}
+
+  \indexspace
+
+  \item {waga}
+    \subitem {przedmiot}, \hyperpage{5}
+  \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}dane\discretionary {-}{}{}\_\discretionary {-}{}{}z\discretionary {-}{}{}\_\discretionary {-}{}{}pliku}
+    \subitem {plecak}, \hyperpage{4}
+
+\end{theindex}

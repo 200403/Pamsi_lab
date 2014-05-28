@@ -1,0 +1,94 @@
+\hypertarget{classplecak}{\section{plecak Class Reference}
+\label{classplecak}\index{plecak@{plecak}}
+}
+
+
+Klasa modeluje rozwiazanie problemu plecakowego Rozwiazanie oparte jest o programowanie dynamiczne.  
+
+
+
+
+{\ttfamily \#include $<$plecak.\-hh$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classplecak_ae4a83a03f80233a82ca1d2d1f963432a}{plecak} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy Inicjuje wszystkie wartosc zmiennych na 0. \end{DoxyCompactList}\item 
+\hypertarget{classplecak_a918a266d6f8e95439b6ba37c1f6b41cf}{\hyperlink{classplecak_a918a266d6f8e95439b6ba37c1f6b41cf}{$\sim$plecak} ()}\label{classplecak_a918a266d6f8e95439b6ba37c1f6b41cf}
+
+\begin{DoxyCompactList}\small\item\em Dekonstruktor klasy Usuwa zmienne dynamiczne z pamieci. \end{DoxyCompactList}\item 
+bool \hyperlink{classplecak_ae4b5878061c14a86371e36b3e7709aef}{wczytaj\-\_\-dane\-\_\-z\-\_\-pliku} (std\-::string nazwa)
+\begin{DoxyCompactList}\small\item\em Metoda wczytujaca dane problemu z pliku Struktura danych w pliku\-: max\-\_\-waga ilosc\-\_\-przedmiotow. \end{DoxyCompactList}\item 
+int \hyperlink{classplecak_a9fa70bc46cdb1e4bcb61ceca790f1c23}{rozwiaz\-\_\-problem} ()
+\begin{DoxyCompactList}\small\item\em Metoda rozwiazuje problem plecakowy Metoda wyznacza tablice rozwiaznia, z ktorej mozna pozniej odczytac ktore przedmioty nalezy zapakowac do plecaka. \end{DoxyCompactList}\item 
+\hypertarget{classplecak_ac396f4e6354e7dd63e5145e65aefef35}{void \hyperlink{classplecak_ac396f4e6354e7dd63e5145e65aefef35}{wypisz\-\_\-rozwiazanie} ()}\label{classplecak_ac396f4e6354e7dd63e5145e65aefef35}
+
+\begin{DoxyCompactList}\small\item\em Metoda wypisuje ktore przedmioty zostaly zapakowane Metoda wypisuje zapakowane przedmioty oraz laczna wage i cene. \end{DoxyCompactList}\item 
+\hypertarget{classplecak_aec51041ea046810c167e35ab01bab9db}{void \hyperlink{classplecak_aec51041ea046810c167e35ab01bab9db}{wyswietl} ()}\label{classplecak_aec51041ea046810c167e35ab01bab9db}
+
+\begin{DoxyCompactList}\small\item\em Metoda pomocnicza wypisujaca tablice rozwiazania Metoda wypisuje dane wczytane z pliku oraz tablice rozwiazania Sluzy ona jednynie weryfikacji rozwiazania. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Klasa modeluje rozwiazanie problemu plecakowego Rozwiazanie oparte jest o programowanie dynamiczne. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classplecak_ae4a83a03f80233a82ca1d2d1f963432a}{\index{plecak@{plecak}!plecak@{plecak}}
+\index{plecak@{plecak}!plecak@{plecak}}
+\subsubsection[{plecak}]{\setlength{\rightskip}{0pt plus 5cm}plecak\-::plecak (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classplecak_ae4a83a03f80233a82ca1d2d1f963432a}
+
+
+Konstruktor klasy Inicjuje wszystkie wartosc zmiennych na 0. 
+
+lista przedmiotow 
+
+\subsection{Member Function Documentation}
+\hypertarget{classplecak_a9fa70bc46cdb1e4bcb61ceca790f1c23}{\index{plecak@{plecak}!rozwiaz\-\_\-problem@{rozwiaz\-\_\-problem}}
+\index{rozwiaz\-\_\-problem@{rozwiaz\-\_\-problem}!plecak@{plecak}}
+\subsubsection[{rozwiaz\-\_\-problem}]{\setlength{\rightskip}{0pt plus 5cm}int plecak\-::rozwiaz\-\_\-problem (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classplecak_a9fa70bc46cdb1e4bcb61ceca790f1c23}
+
+
+Metoda rozwiazuje problem plecakowy Metoda wyznacza tablice rozwiaznia, z ktorej mozna pozniej odczytac ktore przedmioty nalezy zapakowac do plecaka. 
+
+\begin{DoxyReturn}{Returns}
+Wartosc optymalnej ceny zapakowanych przedmiotow 
+\end{DoxyReturn}
+\hypertarget{classplecak_ae4b5878061c14a86371e36b3e7709aef}{\index{plecak@{plecak}!wczytaj\-\_\-dane\-\_\-z\-\_\-pliku@{wczytaj\-\_\-dane\-\_\-z\-\_\-pliku}}
+\index{wczytaj\-\_\-dane\-\_\-z\-\_\-pliku@{wczytaj\-\_\-dane\-\_\-z\-\_\-pliku}!plecak@{plecak}}
+\subsubsection[{wczytaj\-\_\-dane\-\_\-z\-\_\-pliku}]{\setlength{\rightskip}{0pt plus 5cm}bool plecak\-::wczytaj\-\_\-dane\-\_\-z\-\_\-pliku (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{nazwa}
+\end{DoxyParamCaption}
+)}}\label{classplecak_ae4b5878061c14a86371e36b3e7709aef}
+
+
+Metoda wczytujaca dane problemu z pliku Struktura danych w pliku\-: max\-\_\-waga ilosc\-\_\-przedmiotow. 
+
+waga\-\_\-1 cena\-\_\-1 waga\-\_\-2 cena 2 ... ...
+
+
+\begin{DoxyParams}{Parameters}
+{\em nazwa} & -\/ nazwa pliku do wczytania \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true jesli wczytalo \par
+ false jest wystapil blad 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+inc/plecak.\-hh\item 
+src/plecak.\-cpp\end{DoxyCompactItemize}
